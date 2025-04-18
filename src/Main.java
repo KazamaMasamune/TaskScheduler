@@ -29,6 +29,7 @@ public class Main {
 
                     Task task = new Task(name, priority, deadline);
                     scheduler.addTask(task);
+                    System.out.println("Task successfully added to the scheduler!"); // Added confirmation message
                     break;
 
                 case 2:
